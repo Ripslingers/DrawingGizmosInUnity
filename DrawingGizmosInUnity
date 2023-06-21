@@ -1,0 +1,9 @@
+private void OnDrawGizmos()
+    {
+        foreach (Vector3 child in _gridPos)
+        {
+            Gizmos.DrawSphere(child,0.1F );
+            Gizmos.color=Color.magenta;
+            
+        }
+    }
